@@ -3,4 +3,3 @@ cbsodata
 pandas
 plotly
 dash-bootstrap-components
-dash-echarts
