@@ -19,6 +19,8 @@ df_price = retreive_data_cbs('83625ENG')
 # Create app layout
 app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
 
+server = app.server
+
 # the style arguments for the sidebar.
 SIDEBAR_STYLE = {
     'position': 'fixed',
