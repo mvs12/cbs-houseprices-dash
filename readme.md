@@ -1,4 +1,4 @@
-##Compare house prices in the Netherlands
+## Compare house prices in the Netherlands
 
 This is a simple Dash app where you can compare Dutch house prices per country section (LD), province (PV) or municipality/city within the year 1995 until 2020.
 
