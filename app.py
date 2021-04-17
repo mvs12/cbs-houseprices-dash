@@ -17,7 +17,7 @@ def retreive_data_cbs(data):
 df_price = retreive_data_cbs('83625ENG')
 
 # Create app layout
-app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 server = app.server
 
