@@ -76,7 +76,7 @@ sidebar = html.Div(
                         """),
         controls
     ],
-    style=SIDEBAR_STYLE,
+    # style=SIDEBAR_STYLE,
 )
 
 content_first_row = dbc.Row([
@@ -93,7 +93,7 @@ content = dbc.Container(html.Div(
         html.Br(),
         content_first_row,
     ],
-    style=CONTENT_STYLE
+    # style=CONTENT_STYLE
 ))
 
 app.layout = html.Div([sidebar, content])
