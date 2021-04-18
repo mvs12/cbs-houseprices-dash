@@ -4,3 +4,4 @@ This is a simple Dash app where you can compare Dutch house prices per country s
 
 The data is from the Statistics Netherlands ([CBS](https://www.cbs.nl/en-gb)). It uses the Statistics Netherlands opendata API client for Python ([cbsodata](https://pypi.org/project/cbsodata/)).
 
+App is deployed on [Heroku](https://cbs-houseprices-dash.herokuapp.com/)
