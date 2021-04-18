@@ -87,16 +87,16 @@ content_first_row = dbc.Row([
         ]), md=12)
 ])
 
-content = dbc.Container(html.Div(
+content = html.Div(
     [
         html.Br(),
         html.Br(),
         content_first_row,
     ],
     # style=CONTENT_STYLE
-))
+)
 
-app.layout = html.Div([sidebar, content])
+app.layout = html.Div(dbc.Container([sidebar, content]))
 
 
 # Create graph
