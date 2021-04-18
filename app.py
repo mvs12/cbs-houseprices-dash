@@ -32,31 +32,11 @@ SIDEBAR_STYLE = {
     'background-color': '#ECF0F1'
 }
 
-DROPDOWN_STYLE = {
-    'background-color': '',
-    'color': ''
-}
-
-# the style arguments for the nav bar.
-NAVBAR_STYLE = {
-    'margin-left': '20%',
-}
-
 # the style arguments for the main content page.
 CONTENT_STYLE = {
     'margin-left': '25%',
     'margin-right': '5%',
     'padding': '20px 10p'
-}
-
-TEXT_STYLE = {
-    'textAlign': 'center',
-    'color': '#FFFFFF'
-}
-
-CARD_TEXT_STYLE = {
-    'textAlign': 'center',
-    'color': '#0074D9'
 }
 
 # Controls
