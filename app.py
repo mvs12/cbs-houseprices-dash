@@ -65,7 +65,7 @@ controls = dbc.FormGroup(
 
 sidebar = html.Div(
     [
-        html.H4(["Compare house prices in The Netherlands"]),
+        html.H1(["Compare house prices in The Netherlands"]),
         html.Br(),
         dcc.Markdown("""
                     Compare Dutch house prices per country region (LD), province (PV) or municipality/city over the 
@@ -84,7 +84,7 @@ content_first_row = dbc.Row([
         html.Div([
             html.H4(dbc.Badge(id='regions_text', color="primary")),
             dcc.Graph(id='graph_1')
-        ]), md=12)
+        ]), md=12, xs=12)
 ])
 
 content = html.Div(
